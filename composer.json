@@ -1,0 +1,20 @@
+{
+	"name": "themekraft/helpscout-jira",
+	"description": "Connect HelpScout with Jira",
+	"type": "plugin",
+	"license": "GPLv2 or later",
+	"authors": [
+		{
+			"name": "Guillermo Figueroa Mesa (gfirem)",
+			"email": "gfirem@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"lesstif/php-jira-rest-client": "dev-master",
+		"helpscout/apps": "1.1.*"
+	},
+	"scripts": {
+		"package": "sh .tk/package.sh helpscout-jira"
+	}
+}

@@ -79,7 +79,6 @@ if ( ! class_exists( 'tkHelpScoutJira' ) ) {
 			define( 'TK_HELPSCOUT_JIRA_CSS_PATH', plugin_dir_url( __FILE__ ) . 'assets/css/' );
 			define( 'TK_HELPSCOUT_JIRA_JS_PATH', plugin_dir_url( __FILE__ ) . 'assets/js/' );
 			define( 'TK_HELPSCOUT_JIRA_VIEW_PATH', dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR );
-			define( 'TK_FREEMIUS_SDK_PATH', dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'freemius' . DIRECTORY_SEPARATOR . 'php-sdk' . DIRECTORY_SEPARATOR . 'freemius' . DIRECTORY_SEPARATOR );
 		}
 
 		/**
